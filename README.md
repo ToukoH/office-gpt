@@ -1,12 +1,16 @@
 ## Office GPT
 
-This is Language Model which generates Dialogues in style of the TV-show "The Office". Data set used for training can be found from https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript/data. Only the first four seasons were used for training.
+This is Language Model which generates Dialogues in style of the TV-show "*The Office*". Data set used for training can be found from https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript/data. Only the first four seasons were used for training.
 
-After training the model, inference can be ran by:
+The model can be trained by running:
+
+`python3 scripts/train.py`
+
+After this, inference can be ran by:
 
 `python3 scripts/inference.py ${start_text} ${max_tokens}`
 
-The output is pure gibberish, but this is what you achieve with 10 805 078 parameters.
+The output is pure gibberish, but this is what you achieve with **10 805 078 parameters**.
 
 ### Example output:
 
