@@ -1,2 +1,4 @@
 data/
 venv/
+.DS_store
+model.pth
