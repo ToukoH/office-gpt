@@ -10,7 +10,7 @@ After this, inference can be ran by:
 
 `python3 scripts/inference.py ${start_text} ${max_tokens}`
 
-The output is pure gibberish, but this is what you achieve with **10 805 078 parameters**.
+The output is pure gibberish, but this is what you achieve with **10 805 078 parameters** and lazy hyperparameter tuning.
 
 ### Example output:
 
