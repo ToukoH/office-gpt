@@ -42,3 +42,13 @@ I like the party, so...
 Michael:
 It was just fine for me. 
 ```
+
+### Technical details
+- **Multi-Head Attention**: Enhances the model's ability to process different parts of the input sequence in parallel.
+
+- **Layer Normalization**: Applied both before the multi-head attention mechanism and before the feed-forward network in each transformer block.
+
+- **Residual Connections**: Used in each transformer block to facilitate the flow of information and gradients through the network.
+
+- **Embedding Layers**: The model utilizes separate embedding layers for tokens and positional encodings.
+
