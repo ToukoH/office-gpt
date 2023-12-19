@@ -52,3 +52,4 @@ It was just fine for me.
 
 - **Embedding Layers**: The model utilizes separate embedding layers for tokens and positional encodings.
 
+- **Character-Level Encoding**: Each character is treated as a distinct entity, allowing the model to learn and generate text at the granular level of individual characters.
