@@ -1,6 +1,6 @@
 ## Office GPT
 
-This is Language Model which generates Dialogues in style of the TV-show "*The Office*". Data set used for training can be found from https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript/data. Only the first four seasons were used for training.
+This is Language Model which generates Dialogues in style of the TV-show "*The Office*". Data set used for training can be found from https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript/data. Only the first four seasons were used for training. I got the idea for this from https://cs224d.stanford.edu/reports/oguz.pdf and Andrej Karpathy's intro to Language Models.
 
 The model can be trained by running:
 
