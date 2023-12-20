@@ -11,7 +11,7 @@ def generate_text(model, start_text, max_new_tokens, block_size, device):
 
 def main():
     parser = argparse.ArgumentParser(description="Generate text from a starting string using a trained model.")
-    parser.add_argument('start_text', type=str, help="Starting text for the generation. Must be in quote marks!")
+    parser.add_argument('start_text', type=str, help="Starting text for the generation.")
     parser.add_argument('max_new_tokens', type=int, help="Maximum number of new tokens to generate")
     args = parser.parse_args()
 
