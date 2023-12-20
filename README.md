@@ -1,6 +1,6 @@
 ## Office GPT
 
-This is Language Model which generates Dialogues in style of the TV-show "*The Office*". Data set used for training can be found from https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript/data. Only the first four seasons were used for training. I got the idea for this project from https://cs224d.stanford.edu/reports/oguz.pdf and Andrej Karpathy's intro to Language Models.
+This is a Language Model which generates dialogues in style of the TV-show "*The Office*". Data set used for the training can be found from https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript/data. Only the first four seasons were used for training. I got the idea for this project from https://cs224d.stanford.edu/reports/oguz.pdf and Andrej Karpathy's intro to Language Models.
 
 The model can be trained by running:
 
@@ -52,4 +52,4 @@ It was just fine for me.
 
 - **Embedding Layers**: The model utilizes separate embedding layers for tokens and positional encodings.
 
-- **Character-Level Encoding**: Each character is treated as a distinct entity, allowing the model to learn and generate text at the granular level of individual characters.
+- **Character-Level Tokenization**: Each character is treated as a distinct entity, allowing the model to learn and generate text at the granular level of individual characters.
