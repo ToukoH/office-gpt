@@ -8,7 +8,7 @@ The model can be trained by running:
 
 After this, inference can be ran by:
 
-`python3 scripts/inference.py ${start_text} ${max_tokens}`
+`python3 scripts/inference.py START_TEXT MAX_TOKENS`
 
 The output is pure gibberish, but this is what you achieve with **10 805 078 parameters** and lazy hyperparameter tuning.
 
